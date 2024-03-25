@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BQ76925PWR")(type "KiCad")(uri "${KIPRJMOD}/Project Library/BQ76925PWR")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/Project Library/RP2040/RP2040.pretty")(options "")(descr ""))
+)
