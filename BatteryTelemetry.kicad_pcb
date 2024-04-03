@@ -246,7 +246,7 @@
 	(net 125 "/RUN")
 	(net 126 "Net-(U1-USB_DP)")
 	(net 127 "Net-(U1-USB_DM)")
-	(net 128 "/~{USB_BOOT}")
+	(net 128 "/USB_BOOT")
 	(net 129 "/QSPI_CS")
 	(net 130 "Net-(U1-XOUT)")
 	(net 131 "Net-(C48-Pad1)")
@@ -295,7 +295,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "95b9bdb5-bffa-4d31-b71f-e2de798ac3be")
 			(effects
@@ -306,7 +306,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "b844550e-cdda-45d0-9f4f-b28939aa8f8a")
 			(effects
@@ -316,7 +316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -340,7 +340,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -352,7 +352,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6d796b65-35d8-4b9c-ab43-6eda6b574db3")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -456,7 +458,7 @@
 			(uuid "0d320ec5-a3cf-4f59-b723-b9942851fe38")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4245cc72-d00c-4f1d-b08b-809272cc2eb8")
 			(effects
@@ -503,7 +505,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "8ffcd544-1bd8-4985-90e2-4a81cbf27620")
 			(effects
@@ -514,7 +516,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "90e9ea63-f6f8-4ce1-bcab-35b23c56152b")
 			(effects
@@ -524,7 +526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -548,7 +550,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -560,7 +562,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/070bf548-3cf3-4b28-9a28-cc5fb3f5256f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -664,7 +668,7 @@
 			(uuid "cdc89d1f-7ece-4088-bc5e-7734324369ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "99c4b3d0-0f29-4293-8e14-90c9463e69c0")
 			(effects
@@ -732,7 +736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -756,7 +760,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -768,7 +772,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/42555860-fec9-42d5-8e72-dd1f45ff47e6")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -940,7 +946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -964,7 +970,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -976,7 +982,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/025028af-7ff4-456f-8a38-df13a34f1501")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -1048,7 +1056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1072,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1084,7 +1092,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ad51507d-196a-486b-83c7-024f62f03ad1")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1235,7 +1245,7 @@
 		(descr "Diode SMB (DO-214AA) Handsoldering")
 		(tags "Diode SMB (DO-214AA) Handsoldering")
 		(property "Reference" "D12"
-			(at 0 -3 270)
+			(at 0 -3 -90)
 			(layer "F.SilkS")
 			(uuid "29f74273-2eea-4a14-9d47-fed1d219935c")
 			(effects
@@ -1246,7 +1256,7 @@
 			)
 		)
 		(property "Value" "SMBJ28CA"
-			(at 0 3 270)
+			(at 0 3 -90)
 			(layer "F.Fab")
 			(uuid "a1bf855c-813c-495e-8a5e-ea4628c8b410")
 			(effects
@@ -1256,7 +1266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1280,7 +1290,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1292,7 +1302,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a1fde832-39be-4553-a3cd-845d4d813b9d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1466,7 +1478,7 @@
 			(uuid "a4905b5d-c97d-4050-b7e3-ba8f565c2cdd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3 270)
+			(at 0 -3 -90)
 			(layer "F.Fab")
 			(uuid "58d1e8d3-5e11-46fe-9872-514c718a0460")
 			(effects
@@ -1536,7 +1548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1560,7 +1572,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1572,7 +1584,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/63930b6a-cf8e-4c68-8ddd-0b252516d1f8")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1723,7 +1737,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R32"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "d0a1147f-1b37-446d-878a-44475390ebf1")
 			(effects
@@ -1734,7 +1748,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "0186eb0c-a919-4745-b449-fcce1f474b41")
 			(effects
@@ -1744,7 +1758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1768,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1780,7 +1794,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/03a3c96b-08c5-4b93-9951-b4abb566e406")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1884,7 +1900,7 @@
 			(uuid "d6137f95-21c2-43fb-b7a8-68dd4f7881c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3afe79ef-76a6-4edc-9142-6c07d38e5e34")
 			(effects
@@ -1951,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BQ76925PWR:SOP65P640X120-20N"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2131,6 +2147,7 @@
 			)
 		)
 		(path "/212f085d-65f9-4c32-a9de-1e2d9eea8e59")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2412,7 +2429,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "25ac24d1-7ae9-456c-8be4-586452e5f2ea")
 			(effects
@@ -2423,7 +2440,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "9e2297c0-0c47-40c2-81d3-d9db04a4c918")
 			(effects
@@ -2433,7 +2450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2457,7 +2474,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2469,7 +2486,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/815a08c3-4c22-4df3-a4f9-53130a195822")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2573,7 +2592,7 @@
 			(uuid "f99c0302-b7a0-4af1-988c-88ba662a4dd8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1483f7e6-c992-4f19-a92c-6d25cf2a336d")
 			(effects
@@ -2641,7 +2660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2665,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2677,7 +2696,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a9d5f514-0066-4982-bdce-a8ae0a6820a9")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2828,7 +2849,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R52"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "1e84f4a8-d65c-4671-8604-b4ec1f3f1be6")
 			(effects
@@ -2839,7 +2860,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "616d3f40-6445-4bef-90e3-a49a96d936b3")
 			(effects
@@ -2849,7 +2870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2873,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2885,7 +2906,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/360eaa93-9476-42ba-b94d-8ea785bd75d2")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2989,7 +3012,7 @@
 			(uuid "943f3e3b-cdc7-48c2-8392-bec4dd24a5bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "8abc82bc-332d-456f-ab97-ccbceadf89e0")
 			(effects
@@ -3036,7 +3059,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
-			(at -3.375 0.12 360)
+			(at -3.375 0.12 0)
 			(layer "F.SilkS")
 			(uuid "81a231d8-4b5c-489c-9db3-45bfab8459b0")
 			(effects
@@ -3047,7 +3070,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "b7681daf-e5fe-4b65-b941-bd6cc601182f")
 			(effects
@@ -3057,7 +3080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3081,7 +3104,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3093,7 +3116,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/65f7dc1b-6a00-48aa-a480-e4b3a1289951")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3197,7 +3222,7 @@
 			(uuid "c4a2455d-864f-4b85-a06f-028111c920cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "317d3111-f7e5-48ed-8527-a8839c10df0c")
 			(effects
@@ -3212,7 +3237,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 128 "/~{USB_BOOT}")
+			(net 128 "/USB_BOOT")
 			(pintype "passive")
 			(uuid "42d63ba4-7327-4ec4-99c1-aef953819c8c")
 		)
@@ -3243,7 +3268,7 @@
 		(at 45.31 92.5925 90)
 		(descr "20-SOP, 0.65 mm pitch, 6.40 mm span, 6.30 X 4.40 X 1.20 mm body<p>20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.30 X 4.40 X 1.20 mm</p>")
 		(property "Reference" "IC3"
-			(at 0 -5.1524 270)
+			(at 0 -5.1524 -90)
 			(layer "F.SilkS")
 			(uuid "70073023-fb01-4f16-b1d3-34b896751c0e")
 			(effects
@@ -3254,7 +3279,7 @@
 			)
 		)
 		(property "Value" "BQ76925PWR"
-			(at 0 4.7124 270)
+			(at 0 4.7124 -90)
 			(layer "F.Fab")
 			(uuid "eb7606a0-22a3-4632-b06c-52fb0f02e862")
 			(effects
@@ -3264,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BQ76925PWR:SOP65P640X120-20N"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3289,7 +3314,7 @@
 			)
 		)
 		(property "Description" "\nAnalog front end for 3 to 6 series lithium-ion cells\n"
-			(at 59.59625 21.1964 270)
+			(at 59.59625 21.1964 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98ab2bbd-f11a-4129-a468-6b408797b064")
@@ -3300,7 +3325,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BQ76925PWR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97b7fe99-5a23-4788-a71b-dbeb5c0c3bb4")
@@ -3312,7 +3337,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Analog Front End for 3 to 6 Series Lithium-Ion Cells"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6c6f98b-933f-47ed-8709-673aa4754dd5")
@@ -3324,7 +3349,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "296-29341-2-ND"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ba9d7e2-f3c7-497a-b931-7dc58fac32fc")
@@ -3336,7 +3361,7 @@
 			)
 		)
 		(property "HEIGHT" "1.2mm"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0bd3e2ab-3bb1-4541-9ba8-c1db5381c345")
@@ -3348,7 +3373,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5db8af59-af1d-4716-8569-c6375ef7f825")
@@ -3360,7 +3385,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f293367-550d-4905-9320-f3dbe4a973d4")
@@ -3372,7 +3397,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b83b2ba-c70f-4529-a861-3cf31598b711")
@@ -3384,7 +3409,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "595-BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18a0d7ab-6427-4695-bf2f-3519ac4277d8")
@@ -3396,7 +3421,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ76925PWR?qs=kO%2FAGeZgcF9cz0cYKlwgWg%3D%3D"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02117247-179a-4932-ba6c-54b25115d8e6")
@@ -3408,7 +3433,7 @@
 			)
 		)
 		(property "MP" "BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa9efb56-087d-455d-b9de-9777cb998980")
@@ -3420,7 +3445,7 @@
 			)
 		)
 		(property "Package" "TSSOP-20 Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e664cdb4-5563-4acc-9e54-2fd378b5dc69")
@@ -3432,7 +3457,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ76925PWR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bf73ee9-d071-425f-a074-bd2441c5b6ad")
@@ -3444,6 +3469,7 @@
 			)
 		)
 		(path "/b02ef5eb-af77-4eaf-afb8-f379dc432167")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3725,7 +3751,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "799f63e0-8abd-421c-8ed8-ada763f018ee")
 			(effects
@@ -3736,7 +3762,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "0e93db34-92f8-4a40-867b-df7d0f56665a")
 			(effects
@@ -3746,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3770,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3782,7 +3808,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/feeda30d-dd93-4730-9f5d-419806a0ab37")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3886,7 +3914,7 @@
 			(uuid "efbdc604-96cd-4fc0-ad9d-9d28afa7bb3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b7e6aa7b-e095-4624-a57f-6d449ba71e6b")
 			(effects
@@ -3954,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3978,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3990,7 +4018,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c33d2f3e-5745-47a8-a560-f942d11b541c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4141,7 +4171,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R36"
-			(at -3.275 0.05 360)
+			(at -3.275 0.05 0)
 			(layer "F.SilkS")
 			(uuid "1c34162f-181d-4381-bdb3-e4cb7b521c14")
 			(effects
@@ -4152,7 +4182,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f5008185-8b3d-4271-bc76-07c2930500f5")
 			(effects
@@ -4162,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4186,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4198,7 +4228,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e61ad6b9-d803-4c98-9747-ca4aaecdfe3a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4302,7 +4334,7 @@
 			(uuid "af74708f-96cc-4c4c-b273-3143f3452359")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bfe82b32-f9c6-499a-a9b2-d5a42dd0b6ee")
 			(effects
@@ -4349,7 +4381,7 @@
 		(descr "JST XH series connector, S7B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J4"
-			(at 7.535 8.8617 360)
+			(at 7.535 8.8617 0)
 			(layer "F.SilkS")
 			(uuid "eb43b1f0-2879-4fca-8cbe-981c80386de7")
 			(effects
@@ -4360,7 +4392,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 7.5 8.8 360)
+			(at 7.5 8.8 0)
 			(layer "F.Fab")
 			(uuid "ec5af419-7d3e-441b-848f-471ad3b2dc02")
 			(effects
@@ -4370,7 +4402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4394,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4406,7 +4438,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6b3865a5-8d86-42fe-b910-f00a8a1d9981")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4960,7 +4994,7 @@
 			(uuid "7a706d5e-3c7b-4eeb-a002-a9a2a2444ca2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 1.85 360)
+			(at 7.5 1.85 0)
 			(layer "F.Fab")
 			(uuid "c58e4e55-86f2-499d-a76d-7218a8cae412")
 			(effects
@@ -5088,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5112,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5124,7 +5158,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ffe7b842-62d9-4f86-970b-b681e4bfde33")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5275,7 +5311,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C45"
-			(at -3.35 -0.004 360)
+			(at -3.35 -0.004 0)
 			(layer "F.SilkS")
 			(uuid "4f9da9a1-7bf0-4b80-9c32-2a7e0f0180cd")
 			(effects
@@ -5286,7 +5322,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "3469f911-029d-461a-b669-1c14e2a183be")
 			(effects
@@ -5296,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5320,7 +5356,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5332,7 +5368,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/15970173-d55c-457d-ac66-ad1d74421430")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5436,7 +5474,7 @@
 			(uuid "cde5a579-0cb2-4524-9113-257009fb0830")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8f9216f2-d59d-4c39-816e-90571b348731")
 			(effects
@@ -5504,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5528,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5540,7 +5578,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/647f7b83-db1f-427b-add2-e48860b2cb7e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5691,7 +5731,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R38"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "cfa3c398-c37d-467b-b6f9-3aab67f283a8")
 			(effects
@@ -5702,7 +5742,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e54eecb3-7a3f-419e-940b-3bf13bba08b1")
 			(effects
@@ -5712,7 +5752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5736,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5748,7 +5788,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fc2b4c22-83cb-45c0-84d9-107335d8a447")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5852,7 +5894,7 @@
 			(uuid "dcbaa706-87c5-4a6c-91bb-81e387c05551")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b4760ecd-fc9d-4574-9229-88f9f8e2fb55")
 			(effects
@@ -5892,361 +5934,6 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-		(layer "F.Cu")
-		(uuid "203e752c-d8a8-4826-ae6a-2279ef538f24")
-		(at 90.075 86.55 180)
-		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
-		(tags "tact sw push 6mm")
-		(property "Reference" "SW1"
-			(at 3.2 -2.325 180)
-			(layer "F.SilkS")
-			(uuid "c1cc546a-d331-4ce2-89a1-59b107796102")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 3.75 6.7 180)
-			(layer "F.Fab")
-			(uuid "55950124-ed9f-45c9-af66-057cfd044795")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7776bfd5-0897-443d-9d21-5dfcfc1b89e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf984fd9-ede9-43f8-8f07-64a7c3f3a4fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4266ada5-e5c6-4a60-a625-e23a5447f239")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/8510fece-78b5-4d55-8a10-c77eb85cc1f5")
-		(sheetfile "BatteryTelemetry.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start 6.75 3)
-			(end 6.75 1.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "39d97c0d-e1a9-437d-ba95-5b5dd9101c39")
-		)
-		(fp_line
-			(start 5.5 -1)
-			(end 1 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5442dc6-9d10-4651-9d62-32596742ea02")
-		)
-		(fp_line
-			(start 1 5.5)
-			(end 5.5 5.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a7eb6c8d-85b1-4b79-a6f6-94b702f6a473")
-		)
-		(fp_line
-			(start -0.25 1.5)
-			(end -0.25 3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9000246d-dd82-4895-a170-d46f63df94e2")
-		)
-		(fp_line
-			(start 8 6)
-			(end 8 5.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "456badfe-7325-4755-9290-6d7118460b9c")
-		)
-		(fp_line
-			(start 8 -1.25)
-			(end 8 5.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3573f4eb-e9ee-41da-9e6e-4d63768ba298")
-		)
-		(fp_line
-			(start 8 -1.5)
-			(end 8 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3f55f683-43fa-49e5-b876-b74b11d10e3d")
-		)
-		(fp_line
-			(start 7.75 6)
-			(end 8 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "81973b75-c577-490a-89d5-e3ad35a9c488")
-		)
-		(fp_line
-			(start 7.75 6)
-			(end -1.25 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5b36a621-d1d5-4eac-b0fe-36a8f3bc889a")
-		)
-		(fp_line
-			(start 7.75 -1.5)
-			(end 8 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e649c7d0-ee51-40f8-a653-1528dac307a8")
-		)
-		(fp_line
-			(start -1.25 -1.5)
-			(end 7.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c51766e9-f967-4de2-a3a2-9afcf323b9b7")
-		)
-		(fp_line
-			(start -1.5 6)
-			(end -1.25 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "200df315-aad9-4b4e-8e2b-e9c442de6ce7")
-		)
-		(fp_line
-			(start -1.5 5.75)
-			(end -1.5 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0e51b434-184c-46c3-8889-fcc3175e2288")
-		)
-		(fp_line
-			(start -1.5 5.75)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "50cb2498-c57d-4f13-8def-f1e6c7ebe5c9")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end -1.5 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fa14465f-d186-499f-a237-229e24289b76")
-		)
-		(fp_line
-			(start -1.5 -1.5)
-			(end -1.25 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "19fd8dd0-e806-4f2f-a844-ca8338dd99fa")
-		)
-		(fp_line
-			(start 6.25 5.25)
-			(end 0.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8e851f7e-1cb6-4b9d-ae21-adb331c3202f")
-		)
-		(fp_line
-			(start 6.25 -0.75)
-			(end 6.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "de33af99-a307-4aa3-b3ba-4f5ed43dce5b")
-		)
-		(fp_line
-			(start 3.25 -0.75)
-			(end 6.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dec6d70c-4cc6-41b8-a959-c1f6b835a690")
-		)
-		(fp_line
-			(start 0.25 5.25)
-			(end 0.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "62a13686-3ed7-4046-9f44-d870be096ffb")
-		)
-		(fp_line
-			(start 0.25 -0.75)
-			(end 3.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cfa8f239-2098-439a-98ab-f8c8a5c0d29d")
-		)
-		(fp_circle
-			(center 3.25 2.25)
-			(end 1.25 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "ad493993-0774-4d06-baef-671c063d336e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 180)
-			(layer "F.Fab")
-			(uuid "3fcda5fb-3a47-4313-a3e1-dc022d49c99b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 270)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "56230823-b14a-4237-a616-599ff2f43d80")
-		)
-		(pad "1" thru_hole circle
-			(at 6.5 0 270)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "3a11496b-5ba8-4a31-9519-8a9f7441c3d1")
-		)
-		(pad "2" thru_hole circle
-			(at 0 4.5 270)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "9d17cc8b-fe0d-4e8b-94d7-f5a915488794")
-		)
-		(pad "2" thru_hole circle
-			(at 6.5 4.5 270)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "c995b7b5-5e3e-4ad1-a24a-3f16c76a26a8")
-		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "222c3aba-2d4e-49ff-b92f-a4357de7ead3")
@@ -6254,7 +5941,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "c316ddcc-948c-4c9d-bf9a-854621bc2461")
 			(effects
@@ -6265,7 +5952,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "6621aabb-d2f2-4432-845c-71ac39fb9783")
 			(effects
@@ -6275,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6299,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6311,7 +5998,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c4475022-6454-4c17-8243-efad9c5601c5")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6415,7 +6104,7 @@
 			(uuid "905672fa-3b1b-4aa8-a645-14dfde11bc8e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "7d53a278-f444-4d74-8a88-346a5547806b")
 			(effects
@@ -6483,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6507,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6519,7 +6208,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7d3e6116-546e-4825-912e-f81f53e3f81a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6670,7 +6361,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R24"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "c9992e71-554b-4061-9921-748f0d19df62")
 			(effects
@@ -6681,7 +6372,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "53181449-10a0-4ebd-ab00-ab806a3fe02f")
 			(effects
@@ -6691,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6715,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6727,7 +6418,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/204a6935-4e4b-45d3-90cb-1a1c0845b434")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6831,7 +6524,7 @@
 			(uuid "0b0b7a70-a1b9-475b-8d0f-8758816ce71d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "94135293-a4f4-49a7-8038-6037cab86967")
 			(effects
@@ -6899,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6923,7 +6616,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6935,7 +6628,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a97bc051-2b3f-482d-acc5-40e361da65e5")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7107,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7131,7 +6826,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7143,7 +6838,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c09e0bf5-0cb7-4da3-b29d-ce7ca13f2712")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7315,7 +7012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7339,7 +7036,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7351,7 +7048,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5633e689-afb4-4b33-829c-d324749ab32b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7513,7 +7212,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 7.5 8.8 360)
+			(at 7.5 8.8 0)
 			(layer "F.Fab")
 			(uuid "c5f2913b-bea3-4cce-9430-516ea2e11c64")
 			(effects
@@ -7523,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7547,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7559,7 +7258,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/48cd1584-7741-4cce-aea4-91ef321f65c1")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8113,7 +7814,7 @@
 			(uuid "d07726cf-4717-4e4e-af93-27a966b1844a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 1.85 360)
+			(at 7.5 1.85 0)
 			(layer "F.Fab")
 			(uuid "5f2dd874-95aa-4da3-b1a1-a3caf138143f")
 			(effects
@@ -8241,7 +7942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8265,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8277,7 +7978,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/93fc0863-b2b5-4ada-aeb7-d6683068617d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8449,7 +8152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8473,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8485,7 +8188,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/2bee0cbd-8f02-4d37-a884-b1f66f41771a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8657,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8681,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8693,7 +8398,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/65e5dea6-5dbe-4860-b78f-f8370979c5c7")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8909,7 +8616,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "0e99a0f3-3df1-4d9a-bfa6-744914cdb470")
 			(effects
@@ -8920,7 +8627,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "9d512dd3-de8b-46a9-9fa1-d1056ebee7ee")
 			(effects
@@ -8930,7 +8637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8954,7 +8661,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8966,7 +8673,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/db0d104d-1e7e-4af4-a2c8-f3842d6a3803")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9070,7 +8779,7 @@
 			(uuid "92e5a2bf-415b-453b-b5af-49eeb05e97a2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a42663b4-5a07-42af-8bcc-b1e2a884318d")
 			(effects
@@ -9138,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9162,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9174,7 +8883,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d56a947c-96cf-4140-8acb-33766e5d0f2d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9325,7 +9036,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "23e72a44-71f3-46f4-9f41-f7d03636f122")
 			(effects
@@ -9336,7 +9047,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "4715cd1b-fc76-44e4-adda-14ce3077278d")
 			(effects
@@ -9346,7 +9057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9370,7 +9081,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9382,7 +9093,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/6066d870-fcc5-43ef-8fc8-623b16376051")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9486,7 +9199,7 @@
 			(uuid "c82d816a-f0ad-4c0f-9130-0dd43a64dcbb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "72e455c3-2d6c-4028-acb7-aeb6331746a3")
 			(effects
@@ -9544,7 +9257,7 @@
 			)
 		)
 		(property "Value" "BZT52C30-7-F"
-			(at 0 2.1 270)
+			(at 0 2.1 -90)
 			(layer "F.Fab")
 			(uuid "091c6a13-7b20-4153-856f-073793bda3b7")
 			(effects
@@ -9554,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9578,7 +9291,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9590,7 +9303,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b31d49bb-fd62-4c28-a40a-06d1bfa403f4")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9774,7 +9489,7 @@
 			(uuid "3bb1e801-b83b-4314-8423-90284f2e8958")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 270)
+			(at 0 -2 -90)
 			(layer "F.Fab")
 			(uuid "1ccdf192-cdc5-4d2f-83c1-5bec681dbdcc")
 			(effects
@@ -9844,7 +9559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9868,7 +9583,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9880,7 +9595,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5268ef76-998a-446c-bc1c-2f48001ba853")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10052,7 +9769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10076,7 +9793,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10088,7 +9805,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b4133c7b-73f5-4c0e-9e20-ae166be50fee")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10342,7 +10061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10366,7 +10085,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10402,7 +10121,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00a3ec57-b48d-4d61-927e-fc3f6490aebf")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10618,6 +10339,351 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+		(layer "F.Cu")
+		(uuid "46858a03-caf8-42ac-bb20-04d1bf2263bb")
+		(at 104.446 90.424)
+		(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
+		(tags "PHAP3362 6mm tact sw THT")
+		(property "Reference" "SW1"
+			(at 3.42 -2.7 0)
+			(layer "F.SilkS")
+			(uuid "1f16763a-7966-4d8a-846e-285356a3492d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 4.4 3.7 0)
+			(layer "F.Fab")
+			(uuid "b3864ab8-9ff7-4d78-b7c3-e385ef97dc1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ceba89-74ec-4040-8181-4c3570ce5dbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "286ef744-0a94-4df6-8a9d-3890e08978c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddc3ff8f-6c7e-48a8-b236-aa4604a715ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/603fce58-4c12-444b-94b4-779edb2b376c")
+		(sheetname "Root")
+		(sheetfile "BatteryTelemetry.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.15 -1.85)
+			(end 0.15 -1.39)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e1e5f586-8faf-44b7-bc64-3d38ca35d8ff")
+		)
+		(fp_line
+			(start 0.15 -1.39)
+			(end -0.85 -1.39)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c9c4cffa-7f62-47f7-9351-a4a4341e3524")
+		)
+		(fp_line
+			(start 0.15 1.39)
+			(end 0.15 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "53590c61-b69b-46e9-bd3c-9f6b2da4c686")
+		)
+		(fp_line
+			(start 0.15 1.85)
+			(end 6.35 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b67b171-0adb-4b7b-9a42-355e0c1b0dcc")
+		)
+		(fp_line
+			(start 6.35 -1.85)
+			(end 0.15 -1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89f5ff5a-6ad9-4dcc-bf08-10f7690f5f6f")
+		)
+		(fp_line
+			(start 6.35 -1.85)
+			(end 6.35 -1.39)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "140cb9a6-0ab6-4eee-8ac8-3abe57cb86dc")
+		)
+		(fp_line
+			(start 6.35 1.39)
+			(end 6.35 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc7f0353-1fbf-46b5-9fd1-9fbf3d8f2586")
+		)
+		(fp_rect
+			(start 1.75 -0.55)
+			(end 4.6 0.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "3d17ff1c-a401-4152-9f16-c9a798933a93")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "02d48376-7bae-4f77-a4e7-c211526a1615")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d86ec5f5-1a89-474e-9468-01f7f37d4887")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 0 1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ad1c4a8-1bf1-4379-af37-4a22a765fd4d")
+		)
+		(fp_line
+			(start 0 -2)
+			(end 0 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "b2dbec08-3528-47d8-ab0a-09aff216f193")
+		)
+		(fp_line
+			(start 0 -2)
+			(end 6.5 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f45bda8-16d8-4156-af21-8a3043d4c5c3")
+		)
+		(fp_line
+			(start 0 1.38)
+			(end 0 2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "97246bd1-97bc-4945-b309-e9bd4af9531a")
+		)
+		(fp_line
+			(start 6.5 -2)
+			(end 6.5 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a0267a3-1158-47e9-8bdb-6c519ebef127")
+		)
+		(fp_line
+			(start 6.5 1.38)
+			(end 6.5 2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae4ae92f-0589-4bc8-b5a4-6e4ef62a5018")
+		)
+		(fp_line
+			(start 6.5 2)
+			(end 0 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce9a55dc-9c40-490b-be46-bb665e365f4c")
+		)
+		(fp_arc
+			(start 6.5 -1.38)
+			(mid 7.88 0)
+			(end 6.5 1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "f59a4bdd-6d20-482b-b005-8136d344b904")
+		)
+		(fp_line
+			(start 0.25 1.75)
+			(end 0.25 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ff9e4d1-2402-4c3a-8bc9-fdad4f6e5bb9")
+		)
+		(fp_line
+			(start 0.65 -1.75)
+			(end 0.25 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "4d5c7d65-06d6-4f46-b2d8-f1ea63614946")
+		)
+		(fp_line
+			(start 0.65 -1.75)
+			(end 6.25 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff6636a4-bde2-431e-912c-f0d753d4ee21")
+		)
+		(fp_line
+			(start 6.25 -1.75)
+			(end 6.25 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cae976d3-0b10-4829-ac72-45ba1b7e8d15")
+		)
+		(fp_line
+			(start 6.25 1.75)
+			(end 0.25 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b893987f-3b0f-46c8-adcb-a8ed824f984c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3 0 0)
+			(layer "F.Fab")
+			(uuid "956bc770-bccf-4b37-8477-8eb2e760356e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 2.25 2.25)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 128 "/USB_BOOT")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "d1b6d8b6-3277-4fdf-8c6a-ffde2493278b")
+		)
+		(pad "2" thru_hole circle
+			(at 6.5 0 90)
+			(size 2.25 2.25)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "c69e8cc2-89d2-442f-9fff-bdd8db5ba4ef")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "496a6be4-3848-4d60-9471-8249293ec6c0")
@@ -10646,7 +10712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10670,7 +10736,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10682,7 +10748,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/dc57dce1-92eb-48fd-b3d2-41ebbdb35052")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -10754,7 +10822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10778,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10790,7 +10858,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2b821868-cabb-4948-a61c-27b3459a1961")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10962,7 +11032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10986,7 +11056,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10998,7 +11068,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/ea2ba679-34a9-4632-844d-b82d1c5843e3")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11218,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11242,7 +11314,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11254,7 +11326,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/92bd7c67-9259-42bc-b21d-4349272a580a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11426,7 +11500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2040:RP2040-QFN-56"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11463,6 +11537,7 @@
 			)
 		)
 		(path "/8e8d369e-c7a2-4e23-bea5-399bc721fae2")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12373,7 +12448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12397,7 +12472,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12409,7 +12484,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b111f2bf-14f5-4dc3-8e3e-ced308b987e8")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12581,7 +12658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12605,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12617,7 +12694,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/10ad9dcf-1594-442c-92c8-52471a20cf5e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12789,7 +12868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12813,7 +12892,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12825,7 +12904,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4c90215f-0b27-4f2d-b0e2-16d1d8f76a2b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12976,7 +13057,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C28"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "b22cc4bb-6258-4407-b178-2a1e9230fffb")
 			(effects
@@ -12987,7 +13068,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "c88ee3d1-564b-4f29-afeb-4ea7d83cc135")
 			(effects
@@ -12997,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13021,7 +13102,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13033,7 +13114,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ea3748dc-7cd3-4d67-b7df-148471bd3199")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13137,7 +13220,7 @@
 			(uuid "8df4f724-13dd-429c-9a42-7139bee2d965")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ce64136a-3d16-42e5-8807-96408a44542d")
 			(effects
@@ -13205,7 +13288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13229,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13265,7 +13348,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5e29b308-34d6-41f6-a7e2-3d61e03b9d62")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13488,7 +13573,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R27"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "135db462-3f24-46c0-9a6f-8e946e5a103e")
 			(effects
@@ -13499,7 +13584,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "2879a0ea-91cd-4f7a-8a8d-36782fae3c33")
 			(effects
@@ -13509,7 +13594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13533,7 +13618,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13545,7 +13630,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0595e54d-cc3b-4879-a87c-099cb2605373")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13649,7 +13736,7 @@
 			(uuid "1b969474-309e-4acb-a032-d66a7d3a31ec")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2223abb9-10c0-44de-9795-d915c515f842")
 			(effects
@@ -13696,7 +13783,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R28"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "ae497104-3edf-4357-8723-79fceb67a5bd")
 			(effects
@@ -13707,7 +13794,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "de828bbc-c48d-45cb-9736-1c84077b2505")
 			(effects
@@ -13717,7 +13804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13741,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13753,7 +13840,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8bb9b36a-ac95-4982-8bd3-456e0f2f8776")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13857,7 +13946,7 @@
 			(uuid "0aa75ad7-07d0-48d5-beb1-c2c0514ce061")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "556cf986-21ec-4d31-80be-a5bfc90a9c9f")
 			(effects
@@ -13904,7 +13993,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "f47485c1-d709-4b97-afb0-73b982824335")
 			(effects
@@ -13915,7 +14004,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "b71e8452-b3ee-4d77-8d27-d284b017fd2e")
 			(effects
@@ -13925,7 +14014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13949,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13961,7 +14050,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b1a84f8-4ae1-4a68-b11c-f344e8c79410")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14065,7 +14156,7 @@
 			(uuid "06590df9-a10a-4dae-96c5-7dfc0bc2796f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "339e5c49-50d9-40d1-881b-9ae4f085c009")
 			(effects
@@ -14112,7 +14203,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "66c51f7c-0bee-4afe-9b99-fc09fb9d0118")
 			(effects
@@ -14123,7 +14214,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "700b78df-e46e-4b73-b762-ef1b02d605aa")
 			(effects
@@ -14133,7 +14224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14157,7 +14248,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14169,7 +14260,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5e0ea571-b133-49ce-bb55-ddd72ccbca3d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14273,7 +14366,7 @@
 			(uuid "cf2979a3-fd17-4fd5-b00e-f55abf685c76")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3b2399b8-5d23-405d-9e44-7289695df765")
 			(effects
@@ -14341,7 +14434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14365,7 +14458,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14377,7 +14470,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4e20c3fb-e83a-4da0-95d1-b3c01788a5b2")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14528,7 +14623,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "78a6d935-0060-4ae8-be59-64af761698b1")
 			(effects
@@ -14539,7 +14634,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "067d44e8-2ac1-4728-972a-889226b86637")
 			(effects
@@ -14549,7 +14644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14573,7 +14668,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14585,7 +14680,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cc6a39f2-ff88-44db-a167-fdc2aafcfb45")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14689,7 +14786,7 @@
 			(uuid "1cf71047-59c7-42e9-bd92-e02f6c249a74")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5cc2224a-e6d3-4910-9019-0671e7d36e0a")
 			(effects
@@ -14736,7 +14833,7 @@
 		(descr "Diode SMB (DO-214AA) Handsoldering")
 		(tags "Diode SMB (DO-214AA) Handsoldering")
 		(property "Reference" "D13"
-			(at 0 -3 270)
+			(at 0 -3 -90)
 			(layer "F.SilkS")
 			(uuid "62654cff-698d-44ce-bc27-5f2019d70a2b")
 			(effects
@@ -14747,7 +14844,7 @@
 			)
 		)
 		(property "Value" "SMBJ28CA"
-			(at 0 3 270)
+			(at 0 3 -90)
 			(layer "F.Fab")
 			(uuid "3497dd97-7ad7-4ea5-b481-acde0ffed88b")
 			(effects
@@ -14757,7 +14854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14781,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14793,7 +14890,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b31f73f1-beb2-4361-8df0-fa3a7d0fa695")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14967,7 +15066,7 @@
 			(uuid "dc0e3093-9b38-4cb0-aaa5-fd484d342799")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3 270)
+			(at 0 -3 -90)
 			(layer "F.Fab")
 			(uuid "031c6c9e-7a78-4a4d-9ea0-bf5a6d9ca07a")
 			(effects
@@ -15037,7 +15136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15061,7 +15160,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15097,7 +15196,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e53c6694-5e43-4660-acb5-74df178e28e9")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15351,7 +15452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15363,7 +15464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15375,7 +15476,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15387,7 +15488,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/b11823d3-f50f-4358-b143-08e7f27767bc")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15680,7 +15783,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "6bf262d6-2825-42c1-b932-09a327411d55")
 			(effects
@@ -15691,7 +15794,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "d1f56471-5a1b-423f-9cab-22ec094c6a10")
 			(effects
@@ -15701,7 +15804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15725,7 +15828,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15737,7 +15840,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/89e9ae27-3fdd-4416-8bf6-89dee0713765")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15841,7 +15946,7 @@
 			(uuid "9e0856d7-db48-4d16-90ec-fa5632c94cd0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "9403a990-9189-4adb-afaa-305ed1da19e1")
 			(effects
@@ -15909,7 +16014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15933,7 +16038,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15945,7 +16050,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bc98b69c-acd6-449a-bca9-4cbf471a617b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16096,7 +16203,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C27"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "1360eb95-517f-479f-bcdf-a532bd2e19b1")
 			(effects
@@ -16107,7 +16214,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "76521726-273e-46d6-b919-8afc4c92aef0")
 			(effects
@@ -16117,7 +16224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16141,7 +16248,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16153,7 +16260,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dcc5b703-e2fe-4d2e-99ad-e76b58ee960c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16257,7 +16366,7 @@
 			(uuid "e7f1fe4b-e847-4715-aca8-a2aa653fbd4f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "8ce6172b-2910-42a7-8823-b896de88add7")
 			(effects
@@ -16304,7 +16413,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "8c42f7d3-9273-4eea-8ace-78d7a2194cd9")
 			(effects
@@ -16315,7 +16424,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "c8a478f8-3271-47f6-9854-1f233e310ce7")
 			(effects
@@ -16325,7 +16434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16349,7 +16458,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16361,7 +16470,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8dd59d43-7020-4bdd-9ea3-13aaa42c2a9e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16465,7 +16576,7 @@
 			(uuid "f60dea28-1f76-4649-8ff5-fa32127563b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2c48cb2f-cbfe-4be0-b7f7-e8d307309f78")
 			(effects
@@ -16533,7 +16644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16557,7 +16668,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16593,7 +16704,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/eb78731a-46ac-4e18-910c-9aba0f6ab74f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16816,7 +16929,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C33"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "b3dc90b4-00e6-4a1b-80d8-34b514ae3680")
 			(effects
@@ -16827,7 +16940,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "225839cb-c88f-46fd-90f1-bb8c11c15563")
 			(effects
@@ -16837,7 +16950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16861,7 +16974,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16873,7 +16986,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5162614c-7cbb-4fda-b828-d65cac176f03")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16977,7 +17092,7 @@
 			(uuid "55bb8a96-5b2d-4e3d-a950-d269eaa80f7f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b9f96f30-085f-447d-a88f-214946f92234")
 			(effects
@@ -17045,7 +17160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17069,7 +17184,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17081,7 +17196,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2540334f-ef5b-4a36-890b-2404e6173395")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17232,7 +17349,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R33"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "93011bb9-5421-4f65-b32c-73c0d58c143e")
 			(effects
@@ -17243,7 +17360,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "b8a42f2e-118c-4ab4-b23f-f0b1c54e1525")
 			(effects
@@ -17253,7 +17370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17277,7 +17394,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17289,7 +17406,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/78230910-aba4-40ef-b61a-2efdddf5d8aa")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17393,7 +17512,7 @@
 			(uuid "0a235775-bfd8-4573-9612-d54983535640")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "9a763c9f-9b41-4082-9314-0c8c38440052")
 			(effects
@@ -17461,7 +17580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17485,7 +17604,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17497,7 +17616,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0c125c5a-c86f-4c8c-a243-3b72c29bd709")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17669,7 +17790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17693,7 +17814,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17705,7 +17826,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/805ff923-0841-47d3-9bbd-41f120ddc11b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17877,7 +18000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17901,7 +18024,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17913,7 +18036,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/21ff5759-b4ef-405f-93c4-71cd122fa4ba")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18067,7 +18192,7 @@
 			(uuid "6bdae84d-b0b8-46df-8c45-e59aa42a6084")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 270)
+			(at 0 3.81 -90)
 			(layer "F.Fab")
 			(uuid "fa1ff520-0bed-4280-a2b9-fe44a931159a")
 			(effects
@@ -18161,7 +18286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18185,7 +18310,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18197,7 +18322,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0a47a31d-97e1-4bae-877d-222606cd6756")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18348,7 +18475,7 @@
 		(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0.225 7.515 360)
+			(at 0.225 7.515 0)
 			(layer "F.SilkS")
 			(uuid "4d828673-a75d-49e1-bc8d-d66211a1c7a9")
 			(effects
@@ -18359,7 +18486,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 0 7.85 360)
+			(at 0 7.85 0)
 			(layer "F.Fab")
 			(uuid "a95a7d08-9e2a-43de-93d5-143f7f22cf3a")
 			(effects
@@ -18369,7 +18496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18393,7 +18520,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18405,7 +18532,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f37d991a-15ed-4bad-8d70-4b9c3991d5ac")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18621,7 +18750,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "0dbef574-d575-4150-adad-00290c9dfbce")
 			(effects
@@ -18632,7 +18761,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "ab767c4d-f31a-41c4-9532-180fe410923b")
 			(effects
@@ -18642,7 +18771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18666,7 +18795,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18678,7 +18807,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7bc54f83-691e-440d-856b-70a0a9330889")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18782,7 +18913,7 @@
 			(uuid "3e4dbf02-93ee-4abd-8dd0-a04830e24198")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "eed6d168-5020-45bf-bc36-1cf4e58b2edf")
 			(effects
@@ -18850,7 +18981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18874,7 +19005,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18886,7 +19017,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/7e4ab409-6464-4cff-baa4-3705a65114df")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -18958,7 +19091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18982,7 +19115,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18994,7 +19127,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5faa517a-8fd1-4814-a95b-6893f0f8f59e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19166,7 +19301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19190,7 +19325,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19202,7 +19337,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/aa48525c-befb-4b30-ba4c-f405c48c07e3")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19353,7 +19490,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R35"
-			(at -3.3 0 360)
+			(at -3.3 0 0)
 			(layer "F.SilkS")
 			(uuid "5b9a7436-bea5-48bc-8490-7055422fd676")
 			(effects
@@ -19364,7 +19501,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "4f43390a-64d5-4cfa-a6ad-e0f5ced61d91")
 			(effects
@@ -19374,7 +19511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19398,7 +19535,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19410,7 +19547,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/42458324-da73-48f0-9212-82e3495ffbc4")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19514,7 +19653,7 @@
 			(uuid "bdd1bee5-cf18-4d8f-bd63-3af8ea75a65a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "196ed779-275b-4bf1-a3ed-bc5041381a96")
 			(effects
@@ -19561,7 +19700,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "5ebf7c53-92b0-431e-bc97-b5d300dc84d2")
 			(effects
@@ -19572,7 +19711,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "ff789f93-49c5-43a0-94b2-07aa38f383f8")
 			(effects
@@ -19582,7 +19721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19606,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19618,7 +19757,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1a1db09a-574f-42c8-9143-3eb644a03489")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19722,7 +19863,7 @@
 			(uuid "6983ce62-31bb-4d07-a476-e80652467051")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2914fff5-c903-4d6c-8731-53baa6aedcc1")
 			(effects
@@ -19769,7 +19910,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R25"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "8aef5a8f-faf0-45dc-abb7-8381df67d776")
 			(effects
@@ -19780,7 +19921,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "a5617573-3224-45b0-bd0f-6eb380bd520f")
 			(effects
@@ -19790,7 +19931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19814,7 +19955,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19826,7 +19967,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ae21ae83-2623-452a-a4c1-7b9dabe720eb")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19930,7 +20073,7 @@
 			(uuid "fb1590a0-519b-41a1-aad7-ed109f8bd3a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "89e22b73-1575-4995-9e50-89294526ddf2")
 			(effects
@@ -19977,7 +20120,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C23"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "04de0cf1-e184-41e2-84e2-d5cfb8b39e7c")
 			(effects
@@ -19988,7 +20131,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "39dbbf94-faed-445e-b98a-ae79bc6ffb32")
 			(effects
@@ -19998,7 +20141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20022,7 +20165,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20034,7 +20177,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/09e540f5-91b7-4cb4-9b7f-21c72a58a935")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20138,7 +20283,7 @@
 			(uuid "182539a3-443f-41d6-a0e8-c9f155d2224b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "67cd0ede-5f5c-4fdf-93bf-0564437a4669")
 			(effects
@@ -20178,6 +20323,351 @@
 			)
 		)
 	)
+	(footprint "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+		(layer "F.Cu")
+		(uuid "89919709-35fc-4f77-811d-9550cf1f50f1")
+		(at 104.954 83.312)
+		(descr "tactile push button, 6x3.5mm, https://www.apem.com/idec-apem/en_US/PCB-switches/Tactile-Switches/MJTP-6mm-through-hole/c/MJTP_6mm_through%20hole?page=1")
+		(tags "PHAP3362 6mm tact sw THT")
+		(property "Reference" "SW2"
+			(at 3.42 -2.7 0)
+			(layer "F.SilkS")
+			(uuid "31a9135b-f62f-46e4-a37c-7fd86d725670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 4.4 3.7 0)
+			(layer "F.Fab")
+			(uuid "9f8e45bb-e00b-4d5c-83f4-35c3d687b114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c70b218d-8f69-45ee-960f-29c597be728e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7604c96-2a51-4c27-afb6-043ba3e470c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a62092b4-c52c-4cc8-866a-41da9552b98f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/1e19041d-9b57-4ca7-a69c-5cbb89a7c60d")
+		(sheetname "Root")
+		(sheetfile "BatteryTelemetry.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.15 -1.85)
+			(end 0.15 -1.39)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "81b7199e-660b-4cce-821c-64a9cee7226d")
+		)
+		(fp_line
+			(start 0.15 -1.39)
+			(end -0.85 -1.39)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cd6cad2a-893b-4b58-b84b-83cddb1fe95b")
+		)
+		(fp_line
+			(start 0.15 1.39)
+			(end 0.15 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "90f4ebcf-534d-4be3-8dc7-c49273a43bfb")
+		)
+		(fp_line
+			(start 0.15 1.85)
+			(end 6.35 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14bab664-43d4-47ef-928c-ef1323c1fac9")
+		)
+		(fp_line
+			(start 6.35 -1.85)
+			(end 0.15 -1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fabcdec5-3813-485f-b82b-9d6ed94dddc7")
+		)
+		(fp_line
+			(start 6.35 -1.85)
+			(end 6.35 -1.39)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eddc44bf-fae8-4a82-a686-022b13d4fcef")
+		)
+		(fp_line
+			(start 6.35 1.39)
+			(end 6.35 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e8716e93-aab9-4634-b87f-3022b357b502")
+		)
+		(fp_rect
+			(start 1.75 -0.55)
+			(end 4.6 0.5)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "1d215808-1194-4786-8a15-6ae00c51cb24")
+		)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ee1092a-05e6-46de-918e-72ffb45d1ceb")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d8503aad-9b28-4889-9d2b-916cd8e055a4")
+		)
+		(fp_line
+			(start -1.38 1.38)
+			(end 0 1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "2aff5280-1cf0-4c10-8750-e66239dcafdb")
+		)
+		(fp_line
+			(start 0 -2)
+			(end 0 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b5f765d-1eb6-4bc0-ba97-9524f58d4a8a")
+		)
+		(fp_line
+			(start 0 -2)
+			(end 6.5 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c5707b8a-059c-481e-ae73-1b508948403a")
+		)
+		(fp_line
+			(start 0 1.38)
+			(end 0 2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "1db69834-aaa6-4152-bb49-b65ca5f77ed2")
+		)
+		(fp_line
+			(start 6.5 -2)
+			(end 6.5 -1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "117768e0-6e56-4af4-94cb-0d079cfae27a")
+		)
+		(fp_line
+			(start 6.5 1.38)
+			(end 6.5 2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "17a4d9c9-9977-452d-a833-89ba6adfb76d")
+		)
+		(fp_line
+			(start 6.5 2)
+			(end 0 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6da64ea1-198d-4397-bdae-f1c94fec2b9f")
+		)
+		(fp_arc
+			(start 6.5 -1.38)
+			(mid 7.88 0)
+			(end 6.5 1.38)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "10a628dd-7012-40cc-8b33-489c15726e95")
+		)
+		(fp_line
+			(start 0.25 1.75)
+			(end 0.25 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d556cc3-8499-418d-b9f4-6324b2e9284d")
+		)
+		(fp_line
+			(start 0.65 -1.75)
+			(end 0.25 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "4d332fb1-f6ae-4f36-8d1a-d0bba6c7c3a9")
+		)
+		(fp_line
+			(start 0.65 -1.75)
+			(end 6.25 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "71149ae0-02f9-4f00-829b-ad5039c0b616")
+		)
+		(fp_line
+			(start 6.25 -1.75)
+			(end 6.25 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da2e2593-f5d8-438e-b5f0-9eef8faec295")
+		)
+		(fp_line
+			(start 6.25 1.75)
+			(end 0.25 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41e0dde3-6b6d-4597-83d6-7f0f17523630")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3 0 0)
+			(layer "F.Fab")
+			(uuid "72fdf23e-9d64-4cf4-8567-2394497bb2b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 2.25 2.25)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 125 "/RUN")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a63e74e8-f40d-4839-9e43-ea8f4747553c")
+		)
+		(pad "2" thru_hole circle
+			(at 6.5 0 90)
+			(size 2.25 2.25)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "10e5497e-0040-4d0b-811a-8ef8c1666faf")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8ceccc87-f5e1-44e8-bbb3-17679fa29b65")
@@ -20185,7 +20675,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
-			(at -3.375 -0.075 360)
+			(at -3.375 -0.075 0)
 			(layer "F.SilkS")
 			(uuid "9b8ec385-68e8-41be-8a8a-d1cbdd08b287")
 			(effects
@@ -20196,7 +20686,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "61cf20d7-f0a0-4b10-a2d1-12d6e8a6b083")
 			(effects
@@ -20206,7 +20696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20230,7 +20720,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20242,7 +20732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/21ec24b4-c854-45de-83ac-63ce451f7f83")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20346,7 +20838,7 @@
 			(uuid "cfac8e1b-4d4f-4e36-84fa-a48abd6611db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "576fb71a-490b-4fc1-aaf9-3bebcf487139")
 			(effects
@@ -20414,7 +20906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20438,7 +20930,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20450,7 +20942,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/23cf39b1-23ce-4c42-aa97-01f3c64b561a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -20501,7 +20995,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "b1f132a0-0696-4dc9-aed9-1643c60b90b3")
 			(effects
@@ -20512,7 +21006,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "d7790c17-567d-4672-b703-59c025c67fba")
 			(effects
@@ -20522,7 +21016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20546,7 +21040,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20558,7 +21052,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3141abd6-17ed-4140-a666-2545d909d53f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20662,7 +21158,7 @@
 			(uuid "7de378dc-f07f-48ad-86f8-60f6e18f2b22")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "039e048d-bb70-4e29-8af7-4a37dd6cae4f")
 			(effects
@@ -20709,7 +21205,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "6a097b87-b05a-4372-afff-47f4276a917d")
 			(effects
@@ -20720,7 +21216,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "36ea2953-1847-4abe-920e-66972a6d70df")
 			(effects
@@ -20730,7 +21226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20754,7 +21250,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20766,7 +21262,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/007219a7-2f2a-4737-83a6-21f9ee6e53be")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20870,7 +21368,7 @@
 			(uuid "c320d0c6-56fe-46ab-82ff-0f32ade8acb7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "16414a1a-2e44-443b-8626-76a1d7d6b113")
 			(effects
@@ -20917,7 +21415,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R40"
-			(at 3.3 -0.025 360)
+			(at 3.3 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "a516499f-4b2d-4a5a-a776-8d612c37e663")
 			(effects
@@ -20928,7 +21426,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "7e9b69de-412c-4f32-ae0d-f210fa58027c")
 			(effects
@@ -20938,7 +21436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20962,7 +21460,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20974,7 +21472,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3048a076-12b1-4786-b7cf-532c4f24f315")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21078,7 +21578,7 @@
 			(uuid "3f7721aa-f523-49d9-8871-a1538d0cbd7d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "02a30e45-733a-41f9-978c-6165edcfcd7e")
 			(effects
@@ -21125,7 +21625,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C24"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "31e69d5f-e7e4-4912-bf8c-a314d87193f6")
 			(effects
@@ -21136,7 +21636,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "9f326dca-b173-4c20-9809-e48c842d09ae")
 			(effects
@@ -21146,7 +21646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21170,7 +21670,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21182,7 +21682,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0f815cea-e183-44af-b114-0f0447be6300")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21286,7 +21788,7 @@
 			(uuid "685103d3-fc9e-4a95-88ab-710fc4e09e42")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "0632365b-b601-43dd-b58b-c2b4be83977b")
 			(effects
@@ -21354,7 +21856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21378,7 +21880,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21390,7 +21892,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fa67a3c0-b4e9-41e2-a2ef-2f75082c1cac")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21562,7 +22066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21586,7 +22090,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21598,7 +22102,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4757ec91-3490-4458-8610-c2011b34a312")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21749,7 +22255,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C35"
-			(at 3.4125 0.05 360)
+			(at 3.4125 0.05 0)
 			(layer "F.SilkS")
 			(uuid "8c2b3e87-8f81-4e58-bd58-d38957b2d3ec")
 			(effects
@@ -21760,7 +22266,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "0973b1ec-76f7-4893-b51e-a4619c3944c7")
 			(effects
@@ -21770,7 +22276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21794,7 +22300,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21806,7 +22312,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/796da89b-94ea-4be4-9a7b-08a64fb4154d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21910,7 +22418,7 @@
 			(uuid "43d91267-a7b7-4f10-ba1c-dfc425a56090")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a76f267d-6988-46f4-8e4e-1b308d2d911a")
 			(effects
@@ -21978,7 +22486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22002,7 +22510,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22014,7 +22522,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/50190c78-4494-4f14-868f-364a0ad042c6")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22186,7 +22696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22210,7 +22720,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22222,7 +22732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7689e500-0b8f-4306-9c09-5df913d781a5")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22384,7 +22896,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 2.5 5 360)
+			(at 2.5 5 0)
 			(layer "F.Fab")
 			(uuid "cd9ea0e9-a9e9-46f2-babd-e8869a3b24d8")
 			(effects
@@ -22394,7 +22906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22418,7 +22930,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22431,6 +22943,7 @@
 			)
 		)
 		(path "/6cdf539f-e8ca-488b-b44b-f22ac6c8c0fa")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22734,7 +23247,7 @@
 			(uuid "11a631d3-b3df-433f-b2e0-f0735933d9bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 -1.65 360)
+			(at 2.5 -1.65 0)
 			(layer "F.Fab")
 			(uuid "8d948f98-6f37-4818-b3ff-e3b92e8a66e9")
 			(effects
@@ -22831,7 +23344,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "dd03be5f-5226-4446-8b50-84c4bb871ce2")
 			(effects
@@ -22841,7 +23354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22865,7 +23378,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22877,7 +23390,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d91159ed-910c-4734-9f28-1c13d3e424e5")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22981,7 +23496,7 @@
 			(uuid "34081452-9960-445a-864d-39287f4229bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2fab92c5-0f8c-4f5b-9655-1360f1c8e028")
 			(effects
@@ -23049,7 +23564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23073,7 +23588,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23085,7 +23600,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/750cae7c-8caf-4606-b0bf-509b0d5bbe9c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23257,7 +23774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23281,7 +23798,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23293,7 +23810,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/37a63dc6-5fc6-4c41-881b-dad9f69de356")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23465,7 +23984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23489,7 +24008,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23501,7 +24020,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/59b40bba-61fa-4233-b784-ffa82722095a")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23652,7 +24173,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "81b6124c-733e-4b26-8abc-77233638e47b")
 			(effects
@@ -23663,7 +24184,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "8095dfd7-d5f6-40ae-acf8-3dc2aff3e7f4")
 			(effects
@@ -23673,7 +24194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23697,7 +24218,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23709,7 +24230,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5e00b4b7-cbe9-469c-a825-b702e5d6f618")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23813,7 +24336,7 @@
 			(uuid "ca1eae50-49f6-4281-8449-733e6aeef441")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3744e085-8a7a-42af-9559-939a70f9c40b")
 			(effects
@@ -23881,7 +24404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23905,7 +24428,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23917,7 +24440,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/10b5119b-e4a2-4b5b-ab32-43252bf3424c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24089,7 +24614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24113,7 +24638,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24125,7 +24650,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7e66848f-766e-4fd3-93cc-4a9fdf5162ce")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24297,7 +24824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24321,7 +24848,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24333,7 +24860,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/03720f7e-12f1-48f9-811f-e767f0af2c7f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24505,7 +25034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24529,7 +25058,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24541,7 +25070,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/92656b61-d7a9-470c-9b27-fe0af916b8bd")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24713,7 +25244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24737,7 +25268,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24749,7 +25280,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8847a024-dba8-4482-a94a-b70ef909ca82")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24921,7 +25454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24945,7 +25478,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24957,7 +25490,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0e42cb27-cb6d-4676-b571-6bef9aeea932")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25129,7 +25664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25141,7 +25676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftca9548a"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25261,6 +25796,7 @@
 			)
 		)
 		(path "/0bc4f06b-ce99-482f-9aea-9f8d4cf4d61e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25683,7 +26219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BQ76925PWR:SOP65P640X120-20N"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25863,6 +26399,7 @@
 			)
 		)
 		(path "/1c09de2e-8c22-489a-a29b-9334790f61cb")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26165,7 +26702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26189,7 +26726,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26201,7 +26738,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/99b1352c-725d-4489-a077-a7fc8efb0cbf")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26424,7 +26963,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "5e6597d7-ff24-49d2-a2b4-3629d403e3a9")
 			(effects
@@ -26435,7 +26974,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "5554adc9-c295-420c-9bca-8592a02ccb60")
 			(effects
@@ -26445,7 +26984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26469,7 +27008,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26481,7 +27020,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0037ee09-5fb9-4336-956f-0e7baec91d29")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26585,7 +27126,7 @@
 			(uuid "9c5c28eb-94a4-4e8d-88e4-80f366d85256")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "137d4962-7cf4-49c7-ae3e-3df0c0d60311")
 			(effects
@@ -26653,7 +27194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26677,7 +27218,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26689,7 +27230,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b7cc2e17-ff08-4f0f-855a-fc300046d219")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26840,7 +27383,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C44"
-			(at -3.325 -0.025 360)
+			(at -3.325 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "1969c66c-a193-451c-85dd-d9eba3237bb0")
 			(effects
@@ -26851,7 +27394,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "a0e40eb9-ed5b-4042-9405-daa6813c2afc")
 			(effects
@@ -26861,7 +27404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26885,7 +27428,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26897,7 +27440,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b37dcf21-6533-4197-8cc0-5959570f5209")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27001,7 +27546,7 @@
 			(uuid "af5ac06a-012a-40c8-b5b7-552c2e4460ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7c3512a4-67bc-4675-b029-4ff19831627c")
 			(effects
@@ -27048,7 +27593,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "8fecf956-e2bc-4091-8f35-a13740eb0244")
 			(effects
@@ -27059,7 +27604,7 @@
 			)
 		)
 		(property "Value" "47R"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "525620b8-f594-4599-9306-728775d3e5c8")
 			(effects
@@ -27069,7 +27614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27093,7 +27638,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27105,7 +27650,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ccd07cd0-4797-4afb-a620-a8c5138f0a3f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27209,7 +27756,7 @@
 			(uuid "6a3f63ea-130f-4d41-9a95-5a52ecc95f2d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d6584565-ac57-41bc-83a7-2a74de4efd82")
 			(effects
@@ -27277,7 +27824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27301,7 +27848,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27313,7 +27860,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/81d7667e-38d2-499f-bc79-6aa98568fc0d")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27464,7 +28013,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C34"
-			(at 0.075 1.625 360)
+			(at 0.075 1.625 0)
 			(layer "F.SilkS")
 			(uuid "ffc59256-cdb4-4e0b-914e-c6b56518849f")
 			(effects
@@ -27475,7 +28024,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "9826cffd-a70d-4d4f-9361-981fdea5c263")
 			(effects
@@ -27485,7 +28034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27509,7 +28058,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27521,7 +28070,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/59db486e-32cc-4197-a8d3-a62ec4af5888")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27625,7 +28176,7 @@
 			(uuid "aadbcc0d-0fbc-44de-af1d-215d4f3f9c91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "513c6713-e39e-4858-8b11-d94be2a14d05")
 			(effects
@@ -27693,7 +28244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27717,7 +28268,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27729,7 +28280,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0e59cfc2-ec3f-40a2-907f-326fe37001ae")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27880,7 +28433,7 @@
 		(descr "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf")
 		(tags "USB Type-C Receptacle Through-hole Right angle")
 		(property "Reference" "J5"
-			(at 3.005 -1.955 360)
+			(at 3.005 -1.955 0)
 			(layer "F.SilkS")
 			(uuid "bb6f92ab-35a2-48d9-bc85-2e64031c036a")
 			(effects
@@ -27891,7 +28444,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 2.975 9.925 360)
+			(at 2.975 9.925 0)
 			(layer "F.Fab")
 			(uuid "25cc07cd-6ae2-4e5d-901f-b94790fdd5f6")
 			(effects
@@ -27901,7 +28454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27913,7 +28466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27925,7 +28478,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27937,7 +28490,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/c8399534-4856-48f5-a962-cae9fb0a64a5")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -28091,7 +28646,7 @@
 			(uuid "437a806d-428f-4aaa-b100-97d37ded1b55")
 		)
 		(fp_text user "PCB Edge"
-			(at 0.43 8.02 360)
+			(at 0.43 8.02 0)
 			(layer "Dwgs.User")
 			(uuid "969029de-df1b-4b0e-8a2a-7b99068bad52")
 			(effects
@@ -28102,7 +28657,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.975 4.025 360)
+			(at 2.975 4.025 0)
 			(layer "F.Fab")
 			(uuid "37ace669-832b-43c0-bf4f-0eded42c775b")
 			(effects
@@ -28351,7 +28906,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at 3.2 0 270)
+			(at 3.2 0 -90)
 			(layer "F.SilkS")
 			(uuid "85647b18-4c68-41e6-83d6-96a8a0c0c295")
 			(effects
@@ -28362,7 +28917,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "e0511e75-ca36-424e-862f-0c2ff4401a02")
 			(effects
@@ -28372,7 +28927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28396,7 +28951,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28408,7 +28963,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/77d7c894-a92b-4a38-b210-3fb0c8c66e8b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28512,7 +29069,7 @@
 			(uuid "09f1696f-86ce-4840-a807-d638417aebfa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f71e8a47-a55a-4ce6-ba15-e4091203aa70")
 			(effects
@@ -28580,7 +29137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28604,7 +29161,7 @@
 				)
 			)
 		)
-		(property "Description" "PNP transistor, base/emitter/collector"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28617,6 +29174,7 @@
 			)
 		)
 		(path "/11fa6f10-7f02-449c-a4e9-21605e04394b")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28830,7 +29388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28854,7 +29412,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28866,7 +29424,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/793fd615-376b-4e48-b91a-11c697177e66")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29010,361 +29570,6 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
-		(layer "F.Cu")
-		(uuid "e4c20d67-4c70-4b82-be3e-21c564518c9a")
-		(at 64.7875 54.925)
-		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
-		(tags "tact sw push 6mm")
-		(property "Reference" "SW2"
-			(at 2.7625 6.725 0)
-			(layer "F.SilkS")
-			(uuid "297b2fb7-c36d-45aa-b596-83bbc7e9fa7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 3.75 6.7 0)
-			(layer "F.Fab")
-			(uuid "703725cf-6bef-4c65-bdae-14fbc1375cdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a9d1353-2ef3-4036-9ab8-b041ffb62be3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b967e996-d4e7-4f4c-8200-0b14698f44ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36fe207f-3a89-4374-8a55-91fd5d8e442a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/5c6a2d05-3562-4a55-8b43-813dd3042304")
-		(sheetfile "BatteryTelemetry.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -0.25 1.5)
-			(end -0.25 3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "74967b9e-ffe7-4dfa-9575-c09bd818aac8")
-		)
-		(fp_line
-			(start 1 5.5)
-			(end 5.5 5.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db138981-c041-4dba-8369-8dac2eaa9005")
-		)
-		(fp_line
-			(start 5.5 -1)
-			(end 1 -1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be8871bb-e0aa-457f-9fa3-bb35f2a65e8d")
-		)
-		(fp_line
-			(start 6.75 3)
-			(end 6.75 1.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "16016f76-e013-4ff8-a1a8-c11e311cf37c")
-		)
-		(fp_line
-			(start -1.5 -1.5)
-			(end -1.25 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a3efa38b-5806-41f6-a0f7-c63a19eee8ba")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end -1.5 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3837892c-b145-4662-bc39-02b1c368c0ac")
-		)
-		(fp_line
-			(start -1.5 5.75)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a70ac3d0-0b56-4285-8383-c2011de08127")
-		)
-		(fp_line
-			(start -1.5 5.75)
-			(end -1.5 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c5480c28-78ad-4f43-9164-8040608d0b54")
-		)
-		(fp_line
-			(start -1.5 6)
-			(end -1.25 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2bb9a045-a088-4690-b666-71f488158ee9")
-		)
-		(fp_line
-			(start -1.25 -1.5)
-			(end 7.75 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cdffdbc9-96c3-4229-889f-92a57bf2d397")
-		)
-		(fp_line
-			(start 7.75 -1.5)
-			(end 8 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "04845f04-d008-4598-9482-faddbfbfb342")
-		)
-		(fp_line
-			(start 7.75 6)
-			(end -1.25 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f8862229-c086-4afc-881c-6c38d7476001")
-		)
-		(fp_line
-			(start 7.75 6)
-			(end 8 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a1c04497-8e89-433c-b9fa-615bb1f25422")
-		)
-		(fp_line
-			(start 8 -1.5)
-			(end 8 -1.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "46a7caee-3072-47e3-94a8-4cb129f741dd")
-		)
-		(fp_line
-			(start 8 -1.25)
-			(end 8 5.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3a3c0b21-e4da-49d3-bce5-d647b1b496b2")
-		)
-		(fp_line
-			(start 8 6)
-			(end 8 5.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bbea509f-a645-4d7f-b03f-dd6f1c0a750b")
-		)
-		(fp_line
-			(start 0.25 -0.75)
-			(end 3.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cfbc14f6-2c5b-4ac8-945d-12514f899999")
-		)
-		(fp_line
-			(start 0.25 5.25)
-			(end 0.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "21d0f5f1-327b-402d-9fad-c465e484dac6")
-		)
-		(fp_line
-			(start 3.25 -0.75)
-			(end 6.25 -0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a43938e5-b085-4c20-85a5-0c300a517d81")
-		)
-		(fp_line
-			(start 6.25 -0.75)
-			(end 6.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5e2d60a2-5fe8-43cb-a59a-a762b28a95c6")
-		)
-		(fp_line
-			(start 6.25 5.25)
-			(end 0.25 5.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ea628f6d-b60a-4070-9e75-19cc23aff9fa")
-		)
-		(fp_circle
-			(center 3.25 2.25)
-			(end 1.25 2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "50403fa4-9afb-4fd9-b6a7-4ac8714658ca")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 0)
-			(layer "F.Fab")
-			(uuid "dcc5f958-5f21-44f9-ba63-8ba7f098dcb3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "83a32fb1-34d2-4d29-8181-ac1ffbb97a23")
-		)
-		(pad "1" thru_hole circle
-			(at 6.5 0 90)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "785cdc2e-2add-4000-a336-28b3de1dc751")
-		)
-		(pad "2" thru_hole circle
-			(at 0 4.5 90)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "96f6a7a1-c0f7-4675-9d5c-8b9e9114f127")
-		)
-		(pad "2" thru_hole circle
-			(at 6.5 4.5 90)
-			(size 2 2)
-			(drill 1.1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 2 "GND")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "8e22b1b5-af16-46e4-816b-aed694937d74")
-		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H4.3mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e4ffaaee-1886-4e00-bfb2-ed8a4cdb0e60")
@@ -29393,7 +29598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29417,7 +29622,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29429,7 +29634,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50abf5eb-5ec1-4f81-b46a-da260d7445ec")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -30090,7 +30297,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at -3.525 -4.175 270)
+			(at -3.525 -4.175 -90)
 			(layer "F.SilkS")
 			(uuid "c2c49e49-f947-4d56-853f-07048ccf5661")
 			(effects
@@ -30101,7 +30308,7 @@
 			)
 		)
 		(property "Value" "NCP1117-3.3_SOT223"
-			(at 0 4.5 270)
+			(at 0 4.5 -90)
 			(layer "F.Fab")
 			(uuid "0486b9b8-3768-4aa4-bbf7-42d590a994b7")
 			(effects
@@ -30111,7 +30318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30123,7 +30330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30135,7 +30342,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30147,7 +30354,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/5a224438-ba06-4433-8c53-c49c6d73618c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30281,7 +30490,7 @@
 			(uuid "ec424c30-5eae-4291-89b9-f4935e33632c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "27054579-4bac-465f-83a7-c1b1e0c4c9ee")
 			(effects
@@ -30367,7 +30576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30391,7 +30600,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30403,7 +30612,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c0a7d934-55a7-45ff-b3b4-dae35258ce7c")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30575,7 +30786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S7B-XH-A-1_1x07_P2.50mm_Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30599,7 +30810,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30611,7 +30822,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e9e5641d-5834-4a83-9d19-de4cac25e700")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -31293,7 +31506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31317,7 +31530,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31329,7 +31542,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0986dfdb-4123-431d-ac0c-0b622ed9c061")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31501,7 +31716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31525,7 +31740,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31537,7 +31752,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/88a25347-9682-4e38-9e61-878cc4ea6745")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31688,7 +31905,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D7"
-			(at -0.025 -1.675 360)
+			(at -0.025 -1.675 0)
 			(layer "F.SilkS")
 			(uuid "917e2ea8-03ee-4131-a98a-3f5a6b7c1382")
 			(effects
@@ -31699,7 +31916,7 @@
 			)
 		)
 		(property "Value" "CUS05S30,H3F"
-			(at 0.1 1.9 360)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "b9c31e72-c27c-4fb6-ab99-81be692c9a2e")
 			(effects
@@ -31709,7 +31926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31733,7 +31950,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31746,7 +31963,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "deaf81a2-d325-40b3-b283-35e4fbfdd7c1")
@@ -31758,7 +31975,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab99db3e-522d-463b-b917-26549f69e3e4")
@@ -31769,7 +31986,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dbd6009a-54e0-4d5e-9ba7-0ed184cf0e7f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31943,7 +32162,7 @@
 			(uuid "1f3f6ba4-4d38-4edd-9226-66715d1828df")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.Fab")
 			(uuid "a6c5e8a7-4989-40f2-835b-278a27465575")
 			(effects
@@ -32013,7 +32232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32037,7 +32256,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32049,7 +32268,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d3e78fd5-d2bf-431d-ad52-563bca611f35")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32221,7 +32442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32245,7 +32466,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32257,7 +32478,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0e51072a-2a8b-4b23-947a-f35e302dbc6f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32408,7 +32631,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "c95b1b39-24c7-49c5-9933-6af67b937b1e")
 			(effects
@@ -32419,7 +32642,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "d591c7d2-fc3a-4177-ab3e-ea9ac6f3e24b")
 			(effects
@@ -32429,7 +32652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32453,7 +32676,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32465,7 +32688,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ba215fe7-21df-4dc8-b861-b8cc5741da45")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32569,7 +32794,7 @@
 			(uuid "3315bc2c-9f4a-4dfa-8a78-9cab8153dccb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "15f06218-49f3-4df0-8de6-d491784e1503")
 			(effects
@@ -32637,7 +32862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32661,7 +32886,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32673,7 +32898,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5725276f-543d-494b-98b5-6bc465232b85")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32895,7 +33122,7 @@
 		(at 73.325 93.4 90)
 		(descr "20-SOP, 0.65 mm pitch, 6.40 mm span, 6.30 X 4.40 X 1.20 mm body<p>20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.30 X 4.40 X 1.20 mm</p>")
 		(property "Reference" "IC4"
-			(at 0 -5.1524 270)
+			(at 0 -5.1524 -90)
 			(layer "F.SilkS")
 			(uuid "4208dd89-b04f-4ac8-a6d0-765099e8116c")
 			(effects
@@ -32906,7 +33133,7 @@
 			)
 		)
 		(property "Value" "BQ76925PWR"
-			(at 0 4.7124 270)
+			(at 0 4.7124 -90)
 			(layer "F.Fab")
 			(uuid "9e3d9cfe-0f75-47ec-937c-a80c21a30025")
 			(effects
@@ -32916,7 +33143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BQ76925PWR:SOP65P640X120-20N"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32941,7 +33168,7 @@
 			)
 		)
 		(property "Description" "\nAnalog front end for 3 to 6 series lithium-ion cells\n"
-			(at 67.91155 21.1964 270)
+			(at 67.91155 21.1964 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "040d22ef-0eb2-453a-9ee3-ba7c10b3f0ea")
@@ -32952,7 +33179,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BQ76925PWR/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2958195c-ef53-4637-b686-fa81e2e6deb1")
@@ -32964,7 +33191,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Analog Front End for 3 to 6 Series Lithium-Ion Cells"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69d88349-b5a4-4008-a1f1-207d121ed4be")
@@ -32976,7 +33203,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "296-29341-2-ND"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28c61217-2e5e-4bb4-806d-26b2d3d3dd09")
@@ -32988,7 +33215,7 @@
 			)
 		)
 		(property "HEIGHT" "1.2mm"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c525ebf-b876-4484-a3da-aae8e82c7e66")
@@ -33000,7 +33227,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e142094-d460-45d2-8fb1-6284c36434c0")
@@ -33012,7 +33239,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "499899f5-a89e-439e-afa1-9e719e29c369")
@@ -33024,7 +33251,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "172887ee-8117-4c7f-92a1-f11425a63e7e")
@@ -33036,7 +33263,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" "595-BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77db9d12-2c68-4e40-a804-54ac148add29")
@@ -33048,7 +33275,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ76925PWR?qs=kO%2FAGeZgcF9cz0cYKlwgWg%3D%3D"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8576d5f-c678-45cf-9af5-e3b50fa8c493")
@@ -33060,7 +33287,7 @@
 			)
 		)
 		(property "MP" "BQ76925PWR"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b0a09c3-9f78-4d97-a6dc-3dec1c6f469e")
@@ -33072,7 +33299,7 @@
 			)
 		)
 		(property "Package" "TSSOP-20 Texas Instruments"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ee17b45-c176-446e-9ff6-456362493431")
@@ -33084,7 +33311,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ76925PWR/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91661745-fb1e-4119-a5e4-b2683ecded0d")
@@ -33096,6 +33323,7 @@
 			)
 		)
 		(path "/84cc326f-c875-48b7-b11b-516e2ad5e440")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33377,7 +33605,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "ea332524-6bc5-42dc-bc1f-22f345bf521e")
 			(effects
@@ -33388,7 +33616,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "1cdd46ab-042a-4955-ad53-780e4afd10bd")
 			(effects
@@ -33398,7 +33626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33422,7 +33650,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33434,7 +33662,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/606dfe20-696b-4f9e-8061-bdc50f4e7676")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33538,7 +33768,7 @@
 			(uuid "74cabc41-38d2-470a-8aa5-12971333f7cf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1798cbc6-24bf-458e-b4aa-e9fc5159f3f1")
 			(effects
@@ -33585,7 +33815,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R37"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "e07d3d81-7f15-4c59-b2e4-c2f052c70697")
 			(effects
@@ -33596,7 +33826,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "dcd3c8e0-1c3b-40d8-a7a3-d5d8977c10fc")
 			(effects
@@ -33606,7 +33836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33630,7 +33860,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33642,7 +33872,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0097b4c5-eba5-4777-b120-2fd358cb4a26")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33746,7 +33978,7 @@
 			(uuid "95ec16df-3816-429c-8ccb-9f4344d6fab7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f86193d0-0b8e-42e1-bc7b-93b8ee8f289d")
 			(effects
@@ -33814,7 +34046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33838,7 +34070,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33850,7 +34082,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a029dd77-78bd-4531-adf6-fbe924ed784e")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34022,7 +34256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34046,7 +34280,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34058,7 +34292,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0dec8d71-5b6c-43c2-8905-9b8fb108e883")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34230,7 +34466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34254,7 +34490,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34266,7 +34502,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5a1d2574-4fde-4108-9336-494eb26edf7f")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34438,7 +34676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34462,7 +34700,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34474,7 +34712,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/efec8a1a-4416-4709-8465-e5b09bfebec7")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34625,7 +34865,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R34"
-			(at -3.325 0 360)
+			(at -3.325 0 0)
 			(layer "F.SilkS")
 			(uuid "f69bfbbc-19b2-41c4-a571-5168f08dbfe6")
 			(effects
@@ -34636,7 +34876,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "0c53c4fe-5563-4513-b985-2a1cf22e9517")
 			(effects
@@ -34646,7 +34886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34670,7 +34910,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34682,7 +34922,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e83ab6b9-aa92-4cb3-9181-57a6919d74e0")
+		(sheetname "Root")
 		(sheetfile "BatteryTelemetry.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34786,7 +35028,7 @@
 			(uuid "524161e6-4fb3-4ebc-bc8b-ef8125b8498a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "438461a4-9200-46fd-bae2-ba82f6e0322a")
 			(effects
