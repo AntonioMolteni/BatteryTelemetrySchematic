@@ -6132,6 +6132,12 @@
 		)
 	)
 	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c94681-0da3-4b98-bd86-31d9d50a7bb7")
+	)
+	(junction
 		(at 57.15 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6510,6 +6516,12 @@
 		(uuid "62232fe8-744a-42e3-b474-a99b8ebe0068")
 	)
 	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6367f1a9-7b16-4b2b-9299-84e48a3cc71c")
+	)
+	(junction
 		(at 243.84 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6652,6 +6664,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f49847d-65c5-4947-a2b6-46f424b6926d")
+	)
+	(junction
+		(at 120.65 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f706030-9233-4388-bbcd-7973b7315508")
 	)
 	(junction
 		(at 52.07 191.77)
@@ -6850,6 +6868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1462502-1599-4ace-a67a-276177e6e90d")
+	)
+	(junction
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2954fbe-54ff-478a-a384-36516f19a56e")
 	)
 	(junction
 		(at 161.29 104.14)
@@ -7409,6 +7433,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08da1c51-e962-41be-b284-6bb94ec12b4f")
+	)
+	(wire
+		(pts
 			(xy 86.36 44.45) (xy 96.52 44.45)
 		)
 		(stroke
@@ -7756,6 +7790,16 @@
 			(type default)
 		)
 		(uuid "1b87f9f9-c824-4369-a600-d91895a00f2c")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 125.73 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8f5d2a-f334-4556-89c5-887fdc212b2e")
 	)
 	(wire
 		(pts
@@ -8169,6 +8213,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 125.73) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e480dee-06be-427b-b8ce-9555ba53727d")
+	)
+	(wire
+		(pts
 			(xy 67.31 157.48) (xy 72.39 157.48)
 		)
 		(stroke
@@ -8196,16 +8250,6 @@
 			(type default)
 		)
 		(uuid "3125a3b2-346a-4c48-87a6-ff9a2057e387")
-	)
-	(wire
-		(pts
-			(xy 191.77 120.65) (xy 186.69 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "312c786d-99a9-4b07-82e6-91d7a9a3214d")
 	)
 	(wire
 		(pts
@@ -8249,6 +8293,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328ca755-ae9f-4c74-94de-4f5a7dd15b85")
+	)
+	(wire
+		(pts
 			(xy 144.78 82.55) (xy 142.24 82.55)
 		)
 		(stroke
@@ -8266,16 +8320,6 @@
 			(type default)
 		)
 		(uuid "32b7cf4c-d27a-4884-aeb8-cdfdf809618a")
-	)
-	(wire
-		(pts
-			(xy 191.77 123.19) (xy 186.69 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ef7b42-fd97-4313-871c-573b43e3a7e3")
 	)
 	(wire
 		(pts
@@ -9109,7 +9153,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 125.73 106.68)
+			(xy 116.84 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9149,7 +9193,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 175.26) (xy 125.73 175.26)
+			(xy 116.84 175.26) (xy 120.65 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9599,6 +9643,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 120.65) (xy 184.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dd4275-1cf4-49c0-8d27-1f0d2242a722")
+	)
+	(wire
+		(pts
 			(xy 41.91 106.68) (xy 67.31 106.68)
 		)
 		(stroke
@@ -9826,16 +9880,6 @@
 			(type default)
 		)
 		(uuid "8ddd3edf-cafc-439b-a1f4-cb397e28ced2")
-	)
-	(wire
-		(pts
-			(xy 191.77 118.11) (xy 186.69 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e837894-8661-46d8-8059-b08ecb795e6b")
 	)
 	(wire
 		(pts
@@ -10139,7 +10183,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 140.97) (xy 125.73 140.97)
+			(xy 120.65 140.97) (xy 127 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c23aff-15e8-4fe3-8022-a2add98600ff")
+	)
+	(wire
+		(pts
+			(xy 116.84 140.97) (xy 120.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10359,16 +10413,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 173.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05c1268-e132-41fd-af59-6297d60ecd85")
-	)
-	(wire
-		(pts
 			(xy 30.48 74.93) (xy 34.29 74.93)
 		)
 		(stroke
@@ -10569,6 +10613,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 116.84) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac98d25-74d9-449e-aafd-e6d65a2705f6")
+	)
+	(wire
+		(pts
 			(xy 41.91 69.85) (xy 62.23 69.85)
 		)
 		(stroke
@@ -10646,6 +10700,16 @@
 			(type default)
 		)
 		(uuid "bddf9331-9ad1-47c9-90bb-a6dcc0065a5b")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7cd388-7abc-4088-aa30-5136fcdfd634")
 	)
 	(wire
 		(pts
@@ -11269,6 +11333,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deee2f5d-9a72-463b-91ae-a4e7687ccc7c")
+	)
+	(wire
+		(pts
 			(xy 168.91 104.14) (xy 175.26 104.14)
 		)
 		(stroke
@@ -11439,16 +11513,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 125.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84517bb-b9b9-4a48-a15b-6c8a69fac179")
-	)
-	(wire
-		(pts
 			(xy 313.69 88.9) (xy 317.5 88.9)
 		)
 		(stroke
@@ -11486,16 +11550,6 @@
 			(type default)
 		)
 		(uuid "e94cb478-0305-460c-919f-f7afda8d2ce3")
-	)
-	(wire
-		(pts
-			(xy 191.77 125.73) (xy 186.69 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea588fef-8aad-422b-b3f0-d7fd96a508fa")
 	)
 	(wire
 		(pts
@@ -11566,6 +11620,16 @@
 			(type default)
 		)
 		(uuid "f0c700cd-a3cb-4639-94d9-6580441ce1c0")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f141b8e3-48c7-471c-a6ff-7d6fdf15b8b1")
 	)
 	(wire
 		(pts
@@ -11978,8 +12042,8 @@
 		(uuid a639081b-ecde-4190-bf20-338392e56b33)
 	)
 	(rectangle
-		(start 13.97 50.8)
-		(end 128.27 193.04)
+		(start 13.97 41.91)
+		(end 128.27 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -12490,7 +12554,7 @@
 		(uuid "745d1497-4439-4f05-a8df-fbe400c982fb")
 	)
 	(label "BAT2"
-		(at 186.69 120.65 0)
+		(at 177.8 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12545,7 +12609,7 @@
 		(uuid "7fdf4e95-fedb-4d6e-bfa5-a9ff9fbf6b03")
 	)
 	(label "BAT3"
-		(at 186.69 123.19 0)
+		(at 177.8 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12567,7 +12631,7 @@
 		(uuid "861334ed-2075-44b7-ae6b-f399afeba020")
 	)
 	(label "BAT1"
-		(at 125.73 72.39 180)
+		(at 127 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12677,7 +12741,7 @@
 		(uuid "b444fe6b-307b-4bb1-a429-9ad509e708ae")
 	)
 	(label "BAT4"
-		(at 186.69 125.73 0)
+		(at 177.8 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12710,7 +12774,7 @@
 		(uuid "c2af755d-89de-42b0-96d1-1e995f4d5bb5")
 	)
 	(label "BAT1"
-		(at 186.69 118.11 0)
+		(at 177.8 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14801,6 +14865,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 187.96 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "130172db-5a74-4211-b4fd-759e57865ba0")
+		(property "Reference" "R55"
+			(at 185.42 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.96 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73fd6656-b15c-4e6b-81a6-8ad73ab0c9e8")
+		)
+		(pin "2"
+			(uuid "65f5f5e4-2346-49f0-a9fe-aa7b48b3ed2c")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 292.1 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15209,6 +15343,75 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1be44555-21b4-4abc-aa3f-123f0659eba4")
+		(property "Reference" "C51"
+			(at 118.872 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 118.618 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.6152 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa00821-0c4d-49e4-80a4-027d47e260a8")
+		)
+		(pin "2"
+			(uuid "1e2bb39e-6f15-44b2-9635-ddd6ca92eb1e")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -19099,6 +19302,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633e2ccf-d57a-41d9-9af1-adfe8a8914ac")
+		(property "Reference" "#PWR039"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4981349d-f1ae-4d2d-8852-acc04e074c8a")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 38.1 93.98 90)
 		(unit 1)
@@ -19873,7 +20143,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 125.73 72.39 180)
+		(at 127 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19881,7 +20151,7 @@
 		(dnp no)
 		(uuid "72e15862-1c87-4916-994d-e9fc01d1c13a")
 		(property "Reference" "TP11"
-			(at 125.73 77.978 0)
+			(at 127 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19889,7 +20159,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 123.19 75.692 90)
+			(at 124.46 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19898,7 +20168,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 120.65 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19907,7 +20177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19916,7 +20186,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 125.73 72.39 0)
+			(at 127 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20270,6 +20540,75 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7915428c-84a2-4406-b838-035cdf8696c2")
+		(property "Reference" "C52"
+			(at 118.872 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 118.618 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.6152 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46d4c7f8-04ef-4b03-aaf2-c761d4816e7c")
+		)
+		(pin "2"
+			(uuid "be598737-df9f-4459-bafc-9a15388174fb")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -20954,6 +21293,76 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8267a579-a414-4a23-9103-0f97dc27b60e")
+		(property "Reference" "R56"
+			(at 185.42 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.96 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a20876f4-0a7c-4fcd-bc0f-b474acf776c5")
+		)
+		(pin "2"
+			(uuid "1d9be70c-d8c5-482c-a3aa-d2bbd6335b55")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -23777,6 +24186,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0db9285-a48a-4a89-aa6d-e6b8d273dae1")
+		(property "Reference" "#PWR038"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21666839-22b5-4185-991e-20d4b8a06ddf")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 119.38 0)
 		(unit 1)
@@ -24204,6 +24680,75 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58cce82-e474-43a1-ab02-faa9e03ab495")
+		(property "Reference" "R53"
+			(at 185.42 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.96 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54e1b8b-f610-45d9-947b-06c4636889c8")
+		)
+		(pin "2"
+			(uuid "0409f6a5-a030-49f8-8db6-3be8dc6aedc0")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -24890,6 +25435,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 187.96 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2356d8d-4e93-42d2-9a1d-9974c1fc64bc")
+		(property "Reference" "R54"
+			(at 185.42 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 186.69 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.96 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c997c406-29b4-46e5-a319-9bc642d02d5c")
+		)
+		(pin "2"
+			(uuid "5bb96b86-588b-4efd-bb3b-7dfe8328dc59")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 38.1 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25206,6 +25821,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca8287b2-1fd0-4f34-a8b8-4e07e910bf32")
+		(property "Reference" "#PWR041"
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3667e7dd-d5e1-48ce-abd5-64a52823374b")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 181.61 139.7 0)
 		(unit 1)
@@ -25401,6 +26083,75 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e41728-eefa-4631-9d0d-59fafcae977f")
+		(property "Reference" "C53"
+			(at 118.872 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 118.618 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.6152 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "158d805a-2170-4d01-a446-fd76531e9957")
+		)
+		(pin "2"
+			(uuid "6d0387a9-d9f6-4f3c-910f-aa0a19692771")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -25808,6 +26559,73 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da36e1c1-576f-4c07-acf4-fe0e0a395dcb")
+		(property "Reference" "#PWR040"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512144ed-17ff-4e1c-aff0-8d5c9d9205a1")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -27319,7 +28137,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 125.73 140.97 180)
+		(at 127 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27327,7 +28145,7 @@
 		(dnp no)
 		(uuid "fc3c43b0-167f-49b8-a1c1-04f36b1eff13")
 		(property "Reference" "TP12"
-			(at 125.73 146.558 0)
+			(at 127 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27335,7 +28153,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 123.19 144.272 90)
+			(at 124.46 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27344,7 +28162,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 120.65 140.97 0)
+			(at 121.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27353,7 +28171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 140.97 0)
+			(at 121.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27362,7 +28180,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 125.73 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27377,6 +28195,75 @@
 			(project "BatteryTelemetry"
 				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdef777b-765a-451f-961f-90bb9eba154e")
+		(property "Reference" "C50"
+			(at 118.872 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 118.618 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.6152 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f6f5eff-1e72-4283-9374-86b22f2bf18a")
+		)
+		(pin "2"
+			(uuid "defddd86-f34d-4f93-810e-8faba4b51514")
+		)
+		(instances
+			(project "BatteryTelemetry"
+				(path "/95e9458b-1dd9-4581-b115-eeedf5be8784"
+					(reference "C50")
 					(unit 1)
 				)
 			)
